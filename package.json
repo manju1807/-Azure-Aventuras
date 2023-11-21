@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.10.2"
+    "parcel": "^2.10.2",
+    "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
     "aos": "^2.3.4"
